@@ -2,44 +2,59 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device=width">
-         <meta name="description" content="Bun Bun Bakery Shop Website">
-         <meta name="keywords" content="bakery, cinnamon rolls, cinnamon buns, buns, bun bun bakery shop">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="./assets/css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         <meta name="description" content="Sharon Yang">
+         <meta name="keywords" content="sharon, yang, portfolio, sharon yang, hci, behavioral economics, carnegie mellon">
          <meta name="author" content="Sharon Yang">
-        <title>Bun Bun Bakery Shop</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <script type="text/javascript" src="main.js" async=""></script>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aladin">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alike">
+        <title>Sharon Yang | Home</title>
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- <script type="text/javascript" src="main.js" async=""></script> -->
     </head>
     <body>
         <header>
             <div class="container">
                 <div id="branding">
-                    <h1><span class="current"><a href="index.html">Bun Bun Bakery Shop</a></span></h1>
+                    <h1><span class="current"><a href="index.html"></a></span></h1>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="menu.html">Menu</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                        <li><img src = "img/search.png" alt = "search"></li>
-                        <li><img src = "img/bar.png" alt = "bar"></li>
-                        <li><a href="shoppingcart.html"><img src ="img/cart.png" alt = "cart"></a></li>
-                        <li><a href="shoppingcart.html"><img src ="img/counter.png" alt = "num"></a></li>
-                        <a id = "counter" href="shoppingcart.html"><span>0</span></a>
-                    </ul>
-                </nav>
             </div>
         </header>
 
+        <!-- Home Page Image -->
+        <img id = "indeximg" src = "assets/img/index.png" alt = "sharon yang">
+        
+
+        <!-- Home Page Typewriter Text and Description -->
     	<section id="showcase">
     		<div class="container">
-                <div id="image">
-    			<h1>Best Cinnamon Rolls in Town !</h1>
-                <a href="menu.html"><p>Order Now</p></a>
-    		</div>
-    	</section>
+                <p id="start">Hello, I am ...</p>
+                <p id="intro"><span class="txt-rotate" data-period="2000" data-rotate='[ "an Innovator.", "a Designer.", "a Creator.", "a Researcher." ]'></span>
+                </p>
+            </div>
+        </section>
+        <div id="desc">
+            <p>I am currently a junior at Carnegie Mellon University studying Behavioral Economics, Policy and Organizations and Human Computer Interaction. I am passionate about designing for innovation to provide users with convenient and seamless experience. Welcome to my portfolio!</p>
+        </div>
+        
+        <!-- Home Page Icons -->
+        <a href="resume.html"><img id = "resumeimg" src = "assets/img/resume.png" alt = "resume"></a>
+        <a href="projects.html"><img id = "projectsimg" src = "assets/img/projects.png" alt = "projects"></a>
+        <a href="contact.html"><img id = "contactimg" src = "assets/img/contact.png" alt = "contact"></a>
 
+        <!-- Footer on Home Page -->
+    	<footer>
+    		<p>Sharon Yang, Copyright &copy; 2021</p>
+        </footer>
+
+        <!--Materialize-->
+        <script src="assets/js/materialize.js"></script>
     </body>
 </html>

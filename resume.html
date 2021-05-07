@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="assets/css/materialize.min.css"  media="screen,projection"/>
+      <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+         <meta name="description" content="Sharon Yang">
+         <meta name="keywords" content="sharon, yang, portfolio, sharon yang, hci, behavioral economics, carnegie mellon">
+         <meta name="author" content="Sharon Yang">
+        <title>Sharon Yang | Resume</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <!-- <script type="text/javascript" src="main.js" async=""></script> -->
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div id="branding">
+                    <h1><span class="current"><a href="resume.html"></a></span></h1>
+                </div>
+                
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+                <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+                <!-- Nav Bar -->
+                <nav>
+                    <div class="nav-wrapper">
+                      <a href="index.html" class="brand-logo">Sharon Yang</a>
+
+                      <a href="#" class="sidenav-trigger" data-target="mobile-nav">
+                        <i class="material-icons">menu</i>
+                      </a>
+    
+                      <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li id="selected"><a href="resume.html">Resume</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                      </ul>
+                    </div>
+                  </nav>
+
+                  <ul class="sidenav" id="mobile-nav">
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+
+            </div>
+        </header>
+        
+  <!-- Embedded Resume and Zoom In Out Button -->
+  <div class="button">
+    <button id="in">+</button>
+    <button id="out">-</button>
+  </div>
+  <img src="assets/img/resume.jpg" id="resume" width="600" height="800" alt="Sharon Yang Resume">
+  <script>
+    $(document).ready(function(){
+      $("#in").click(function(){
+        $("img").width($("img").width()+100);
+        $("img").height($("img").height()+100);
+      });
+      $("#out").click(function(){
+        $("img").width($("img").width()-100);
+        $("img").height($("img").height()-100);
+      });
+    });
+  </script>
+
+    <!-- Footer On About Page -->
+    	<div class="footer-copyright">
+        <div class="container">
+        © 2021 Sharon Yang
+        </div>
+      </div>
+    <!--Materialize-->
+    <script type="text/javascript" src="assets/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
